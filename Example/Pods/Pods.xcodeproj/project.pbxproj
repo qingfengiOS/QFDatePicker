@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3A73664AE6752477FE850103C44C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5D2DDF11910C16FC3825652247F6044F /* QFDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1769A5E9A5A16A9D749D2D7EECBBA5 /* QFDatePicker-dummy.m */; };
+		94790E0D03958C58D3C0A63E7A6D75D9 /* Pods-QFDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1EF57D81C8224C0674DDF0D92C25C0 /* Pods-QFDatePicker_Example-dummy.m */; };
+		C0F342B1F53AEA8FE4D27384440418B5 /* QFDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2DCCDC1B5A8DC4380DC93F5C0BB938 /* QFDatePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D32B6360327CED6058211DE1287D27A1 /* QFTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E671A993941E5CA469F8AAF7FA7AAD60 /* QFTimePickerView.m */; };
+		D3D64C3D697390F40FA52534FADC95DA /* QFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D2810DE7D1F5BCC493928D730EF40 /* QFDatePickerView.m */; };
+		E986DEC7616C2B30751CEF6126EA540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF8892899F150673955E25228ACBEB50 /* QFTimePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E12096EA940CC4E56C640DF7A2B7BDBA /* QFTimePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D4E048F17A91FE4FB658FB08478C352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EB248E8AF769B1C5EDDC68FB7302F0;
+			remoteInfo = QFDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E1161FFC85841C11742A11FBB517BC5 /* Pods-QFDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2E1769A5E9A5A16A9D749D2D7EECBBA5 /* QFDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QFDatePicker-dummy.m"; sourceTree = "<group>"; };
+		2EFA4C95A0BA79FC3F4C71E24ECE7BCC /* Pods-QFDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QFDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3B10CF36244B3FE6909353C52AAC7598 /* QFDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QFDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		54E98BC94295C5A0045FAE9BE8A7C1E3 /* Pods-QFDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E8D2810DE7D1F5BCC493928D730EF40 /* QFDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QFDatePickerView.m; sourceTree = "<group>"; };
+		8CD37964246FCF887BCF6DE7FD121177 /* Pods-QFDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B8A48C47AF155B58C4041E98C47440A /* Pods-QFDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QFDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9D13C0B3E235B8592E8BE199A461B6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B5FF1B4AE1B6B68E74FA01427CF369AF /* libQFDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQFDatePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1EF57D81C8224C0674DDF0D92C25C0 /* Pods-QFDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QFDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		CF2DCCDC1B5A8DC4380DC93F5C0BB938 /* QFDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QFDatePickerView.h; sourceTree = "<group>"; };
+		D0135B5B587C97E837FBF106B262246F /* libPods-QFDatePicker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFDatePicker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24D6B3769F1D1F7021E408C4DE82252 /* QFDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QFDatePicker.podspec; sourceTree = "<group>"; };
+		E12096EA940CC4E56C640DF7A2B7BDBA /* QFTimePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QFTimePickerView.h; sourceTree = "<group>"; };
+		E5E293BBD34A47AFB29B451E2A4998B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E671A993941E5CA469F8AAF7FA7AAD60 /* QFTimePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QFTimePickerView.m; sourceTree = "<group>"; };
+		EFDF5FCA7C87962E7B03DFC5483A2EA5 /* Pods-QFDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QFDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		FBB3D0083DE7B0D141D57B2F73F470F1 /* QFDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QFDatePicker.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14DAB4A569052748E3722D2FBD295451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3A73664AE6752477FE850103C44C61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8716B2240D853585F674C32745E3E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E986DEC7616C2B30751CEF6126EA540C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2058442D8B5C8DF98FF5F17B658EC6EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0135B5B587C97E837FBF106B262246F /* libPods-QFDatePicker_Example.a */,
+				B5FF1B4AE1B6B68E74FA01427CF369AF /* libQFDatePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C1E42125E73C6D80DCE4AEED6EAD26 /* Pods-QFDatePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B8A48C47AF155B58C4041E98C47440A /* Pods-QFDatePicker_Example-acknowledgements.markdown */,
+				54E98BC94295C5A0045FAE9BE8A7C1E3 /* Pods-QFDatePicker_Example-acknowledgements.plist */,
+				CA1EF57D81C8224C0674DDF0D92C25C0 /* Pods-QFDatePicker_Example-dummy.m */,
+				2EFA4C95A0BA79FC3F4C71E24ECE7BCC /* Pods-QFDatePicker_Example-frameworks.sh */,
+				EFDF5FCA7C87962E7B03DFC5483A2EA5 /* Pods-QFDatePicker_Example-resources.sh */,
+				1E1161FFC85841C11742A11FBB517BC5 /* Pods-QFDatePicker_Example.debug.xcconfig */,
+				8CD37964246FCF887BCF6DE7FD121177 /* Pods-QFDatePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-QFDatePicker_Example";
+			path = "Target Support Files/Pods-QFDatePicker_Example";
+			sourceTree = "<group>";
+		};
+		61766A1E5E5E01B364CDAF59A82128D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A9D13C0B3E235B8592E8BE199A461B6E /* LICENSE */,
+				D24D6B3769F1D1F7021E408C4DE82252 /* QFDatePicker.podspec */,
+				E5E293BBD34A47AFB29B451E2A4998B4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		65B4E6F614E68343F05D46C76C59BE8B /* QFDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CF2DCCDC1B5A8DC4380DC93F5C0BB938 /* QFDatePickerView.h */,
+				6E8D2810DE7D1F5BCC493928D730EF40 /* QFDatePickerView.m */,
+			);
+			name = QFDatePickerView;
+			path = QFDatePicker/Classes/QFDatePickerView;
+			sourceTree = "<group>";
+		};
+		66C9DCDE7BF8DFF8715DAF55748609C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C1E42125E73C6D80DCE4AEED6EAD26 /* Pods-QFDatePicker_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		67ABB0465490F757981B8E031ECFED61 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99090B321B05E1CAD646C4FAA8DAF14C /* QFDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7CA090ACE420F4B635C7E698D33EE348 /* QFTimePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E12096EA940CC4E56C640DF7A2B7BDBA /* QFTimePickerView.h */,
+				E671A993941E5CA469F8AAF7FA7AAD60 /* QFTimePickerView.m */,
+			);
+			name = QFTimePickerView;
+			path = QFDatePicker/Classes/QFTimePickerView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				67ABB0465490F757981B8E031ECFED61 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2058442D8B5C8DF98FF5F17B658EC6EA /* Products */,
+				66C9DCDE7BF8DFF8715DAF55748609C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		966FEADE4A5119A449D0CE4C2D4C1368 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBB3D0083DE7B0D141D57B2F73F470F1 /* QFDatePicker.xcconfig */,
+				2E1769A5E9A5A16A9D749D2D7EECBBA5 /* QFDatePicker-dummy.m */,
+				3B10CF36244B3FE6909353C52AAC7598 /* QFDatePicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QFDatePicker";
+			sourceTree = "<group>";
+		};
+		99090B321B05E1CAD646C4FAA8DAF14C /* QFDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				61766A1E5E5E01B364CDAF59A82128D2 /* Pod */,
+				65B4E6F614E68343F05D46C76C59BE8B /* QFDatePickerView */,
+				7CA090ACE420F4B635C7E698D33EE348 /* QFTimePickerView */,
+				966FEADE4A5119A449D0CE4C2D4C1368 /* Support Files */,
+			);
+			name = QFDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CEC8F7D2142BFF1FDB4FE26D607EFD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F342B1F53AEA8FE4D27384440418B5 /* QFDatePickerView.h in Headers */,
+				EF8892899F150673955E25228ACBEB50 /* QFTimePickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04BC2474F881D0F3E9C3B966B74D0D70 /* Pods-QFDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090F7152EC2431902C1DC50BC02B2016 /* Build configuration list for PBXNativeTarget "Pods-QFDatePicker_Example" */;
+			buildPhases = (
+				79AF9C55954C2B1D1C3426DE9D70D3E3 /* Sources */,
+				14DAB4A569052748E3722D2FBD295451 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCEA42BED5E6DAB843FA093CBB9B73F /* PBXTargetDependency */,
+			);
+			name = "Pods-QFDatePicker_Example";
+			productName = "Pods-QFDatePicker_Example";
+			productReference = D0135B5B587C97E837FBF106B262246F /* libPods-QFDatePicker_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		60EB248E8AF769B1C5EDDC68FB7302F0 /* QFDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEE53AA18ADC9E353BA0C72742715B1 /* Build configuration list for PBXNativeTarget "QFDatePicker" */;
+			buildPhases = (
+				EB194D9A268184C42016491AFD30D9C3 /* Sources */,
+				A8716B2240D853585F674C32745E3E31 /* Frameworks */,
+				2CEC8F7D2142BFF1FDB4FE26D607EFD5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFDatePicker;
+			productName = QFDatePicker;
+			productReference = B5FF1B4AE1B6B68E74FA01427CF369AF /* libQFDatePicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2058442D8B5C8DF98FF5F17B658EC6EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BC2474F881D0F3E9C3B966B74D0D70 /* Pods-QFDatePicker_Example */,
+				60EB248E8AF769B1C5EDDC68FB7302F0 /* QFDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79AF9C55954C2B1D1C3426DE9D70D3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94790E0D03958C58D3C0A63E7A6D75D9 /* Pods-QFDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB194D9A268184C42016491AFD30D9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2DDF11910C16FC3825652247F6044F /* QFDatePicker-dummy.m in Sources */,
+				D3D64C3D697390F40FA52534FADC95DA /* QFDatePickerView.m in Sources */,
+				D32B6360327CED6058211DE1287D27A1 /* QFTimePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCEA42BED5E6DAB843FA093CBB9B73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QFDatePicker;
+			target = 60EB248E8AF769B1C5EDDC68FB7302F0 /* QFDatePicker */;
+			targetProxy = 0D4E048F17A91FE4FB658FB08478C352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1592D51DE98A3BBEFA4F5EBD44370C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB3D0083DE7B0D141D57B2F73F470F1 /* QFDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QFDatePicker/QFDatePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BA6136D0B7CC9ADD0909C7A2756E373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB3D0083DE7B0D141D57B2F73F470F1 /* QFDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QFDatePicker/QFDatePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F7359E68B5AD7D09E141B93FCD5F53A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1161FFC85841C11742A11FBB517BC5 /* Pods-QFDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA29D5EE6790C9E8A52F9169D147E06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD37964246FCF887BCF6DE7FD121177 /* Pods-QFDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090F7152EC2431902C1DC50BC02B2016 /* Build configuration list for PBXNativeTarget "Pods-QFDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7359E68B5AD7D09E141B93FCD5F53A7 /* Debug */,
+				FA29D5EE6790C9E8A52F9169D147E06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEE53AA18ADC9E353BA0C72742715B1 /* Build configuration list for PBXNativeTarget "QFDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA6136D0B7CC9ADD0909C7A2756E373 /* Debug */,
+				1592D51DE98A3BBEFA4F5EBD44370C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

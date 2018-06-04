@@ -1,0 +1,16 @@
+PODS:
+  - QFDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - QFDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  QFDatePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QFDatePicker: 5cdba0a1abfd5d7648f1d948fb7d3421ac45806a
+
+PODFILE CHECKSUM: 608fb743fa4549408424535c5ca7154de62e85ca
+
+COCOAPODS: 1.4.0

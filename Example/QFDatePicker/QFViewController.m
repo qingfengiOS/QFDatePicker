@@ -7,12 +7,20 @@
 //
 
 #import "QFViewController.h"
+#import "QFDatePickerView.h"
+#import "QFTimePickerView.h"
 
 @interface QFViewController ()
 
 @end
 
 @implementation QFViewController
+- (IBAction)btn:(id)sender {
+    QFDatePickerView *p = [[QFDatePickerView alloc]initDatePackerWithResponse:^(NSString *str) {
+        NSLog(@"%@",str);
+    }];
+    [p show];
+}
 
 - (void)viewDidLoad
 {

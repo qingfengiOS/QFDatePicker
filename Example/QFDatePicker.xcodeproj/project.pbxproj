@@ -21,9 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7BF8B976A5C40D1605EAE702 /* Pods_QFDatePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE77D9E34560348815CDB5 /* Pods_QFDatePicker_Example.framework */; };
-		8182C4CD936DE8B1BDF94BD0 /* Pods_QFDatePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F13C0EB9BFED2F4C2F5A46 /* Pods_QFDatePicker_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A065AAD6FF81EFC7C2C605DF /* libPods-QFDatePicker_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF60BAED66766362A7198110 /* libPods-QFDatePicker_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,11 +61,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E5D6E7A807CCAB1F84E5526 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A6BE77D9E34560348815CDB5 /* Pods_QFDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B12A5DDB1B80B1C0009A74F3 /* Pods-QFDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFDatePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFDatePicker_Tests/Pods-QFDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA5DAD10A2687DB8F1BC67FD /* Pods-QFDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFDatePicker_Tests/Pods-QFDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF019059619DA9E502F8E9E /* Pods-QFDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFDatePicker_Example/Pods-QFDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EB04F00E52A03EFA8C5277C0 /* QFDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QFDatePicker.podspec; path = ../QFDatePicker.podspec; sourceTree = "<group>"; };
+		FF60BAED66766362A7198110 /* libPods-QFDatePicker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFDatePicker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7BF8B976A5C40D1605EAE702 /* Pods_QFDatePicker_Example.framework in Frameworks */,
+				A065AAD6FF81EFC7C2C605DF /* libPods-QFDatePicker_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				8182C4CD936DE8B1BDF94BD0 /* Pods_QFDatePicker_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +119,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A6BE77D9E34560348815CDB5 /* Pods_QFDatePicker_Example.framework */,
 				41F13C0EB9BFED2F4C2F5A46 /* Pods_QFDatePicker_Tests.framework */,
+				FF60BAED66766362A7198110 /* libPods-QFDatePicker_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +186,6 @@
 			children = (
 				DEF019059619DA9E502F8E9E /* Pods-QFDatePicker_Example.debug.xcconfig */,
 				49961F056D22559497DF9926 /* Pods-QFDatePicker_Example.release.xcconfig */,
-				DA5DAD10A2687DB8F1BC67FD /* Pods-QFDatePicker_Tests.debug.xcconfig */,
-				B12A5DDB1B80B1C0009A74F3 /* Pods-QFDatePicker_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "QFDatePicker_Tests" */;
 			buildPhases = (
-				915A9DE46AE513E387A166C6 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				E4420CFE77CF1E1309DF4D84 /* [CP] Embed Pods Frameworks */,
-				FC025BD7854BA9FAEA6407CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,24 +321,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFDatePicker_Example/Pods-QFDatePicker_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		915A9DE46AE513E387A166C6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QFDatePicker_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C01D1B5C97367956388798E3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,39 +337,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFDatePicker_Example/Pods-QFDatePicker_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E4420CFE77CF1E1309DF4D84 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QFDatePicker_Tests/Pods-QFDatePicker_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFDatePicker_Tests/Pods-QFDatePicker_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC025BD7854BA9FAEA6407CE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFDatePicker_Tests/Pods-QFDatePicker_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -563,7 +503,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA5DAD10A2687DB8F1BC67FD /* Pods-QFDatePicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -587,7 +526,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B12A5DDB1B80B1C0009A74F3 /* Pods-QFDatePicker_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,11 +1,6 @@
-use_frameworks!
+#use_frameworks!
 
 target 'QFDatePicker_Example' do
   pod 'QFDatePicker', :path => '../'
-
-  target 'QFDatePicker_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+  
 end
