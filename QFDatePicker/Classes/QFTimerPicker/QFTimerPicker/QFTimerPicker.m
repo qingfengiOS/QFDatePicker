@@ -199,10 +199,17 @@
     
 }
 
-- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UILabel *)recycledLabel {
+    if (!recycledLabel) {
+        recycledLabel = [[UILabel alloc] init];
+    }
+    recycledLabel.textAlignment = NSTextAlignmentCenter;
+    [recycledLabel setFont:[UIFont systemFontOfSize:18]];
+    recycledLabel.textColor = [UIColor colorWithRed:34.0f / 255.0f green:34.0f / 255.0f blue:34.0f / 255.0f alpha:1.0f];
+    
     if (component == 0) {
         QFDateModel *dateModel = self.dataSourceModel.dateArray[row];
-        return dateModel.showDateString;
+        recycledLabel.text = dateModel.showDateString;
     } else if (component == 1) {
         QFHourModel *hourModel;
         if (self.selectedDateIndex == 0) {//选中的今天
@@ -210,7 +217,7 @@
         } else {
             hourModel = self.dataSourceModel.hourArray[row];
         }
-        return hourModel.showHourString;
+        recycledLabel.text = hourModel.showHourString;
     } else {
         QFMinuteModel *minModel;
         if (self.selectedHourIndex == 0 && self.selectedDateIndex == 0) {//选中的今天的第一个小时
@@ -218,8 +225,9 @@
         } else {
             minModel = self.dataSourceModel.minuteArray[row];
         }
-        return minModel.showMinuteString;
+        recycledLabel.text = minModel.showMinuteString;
     }
+    return recycledLabel;
 }
 
 - (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component {

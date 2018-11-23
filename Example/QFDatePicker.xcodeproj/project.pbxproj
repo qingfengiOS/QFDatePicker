@@ -62,7 +62,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E5D6E7A807CCAB1F84E5526 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DEF019059619DA9E502F8E9E /* Pods-QFDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFDatePicker_Example/Pods-QFDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB04F00E52A03EFA8C5277C0 /* QFDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QFDatePicker.podspec; path = ../QFDatePicker.podspec; sourceTree = "<group>"; };
+		EB04F00E52A03EFA8C5277C0 /* QFDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QFDatePicker.podspec; path = ../QFDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF60BAED66766362A7198110 /* libPods-QFDatePicker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFDatePicker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
