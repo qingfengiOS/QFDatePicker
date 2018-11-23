@@ -7,7 +7,6 @@
 //
 
 #import "QFDatePickerView.h"
-#import "AppDelegate.h"
 
 @interface QFDatePickerView () <UIPickerViewDataSource,UIPickerViewDelegate>{
     UIView *contentView;
