@@ -1,6 +1,6 @@
 {
   "name": "QFDatePicker",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "时间/日期选择器",
   "description": "'cocoaPods的时间/日期选择器'",
   "homepage": "https://github.com/qingfengiOS/QFDatePicker",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/qingfengiOS/QFDatePicker.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
