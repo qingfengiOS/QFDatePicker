@@ -9,29 +9,47 @@
 #import "QFViewController.h"
 #import "QFDatePickerView.h"
 #import "QFTimePickerView.h"
+#import "QFTimerPicker.h"
 
 @interface QFViewController ()
 
 @end
 
 @implementation QFViewController
-- (IBAction)btn:(id)sender {
-    QFDatePickerView *p = [[QFDatePickerView alloc]initDatePackerWithResponse:^(NSString *str) {
-        NSLog(@"%@",str);
+
+- (IBAction)showYearSelectView:(id)sender {
+    QFDatePickerView *datePickerView = [[QFDatePickerView alloc]initYearPickerViewWithResponse:^(NSString *str) {
+        NSString *string = str;
+        NSLog(@"str = %@",string);
     }];
-    [p show];
+    [datePickerView show];
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)showDatePickerView:(id)sender {
+    
+    QFDatePickerView *datePickerView = [[QFDatePickerView alloc]initDatePackerWithResponse:^(NSString *str) {
+        NSString *string = str;
+        NSLog(@"str = %@",string);
+    }];
+    [datePickerView show];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)showTimePickerVierw:(id)sender {
+    
+    QFTimePickerView *pickerView = [[QFTimePickerView alloc]initDatePackerWithStartHour:@"18" endHour:@"12" period:5 response:^(NSString *str) {
+        NSString *string = str;
+        NSLog(@"str = %@",string);
+    }];
+    [pickerView show];
 }
 
+- (IBAction)chooseDate:(UIButton *)sender {
+    QFTimerPicker *picker = [[QFTimerPicker alloc]initWithSuperView:self.view response:^(NSString *selectedStr) {
+        NSLog(@"%@",selectedStr);
+        [sender setTitle:selectedStr forState:UIControlStateNormal];
+        
+    }];
+    
+    [picker show];
+}
 @end

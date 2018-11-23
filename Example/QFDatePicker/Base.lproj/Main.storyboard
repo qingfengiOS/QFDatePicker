@@ -1,41 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="QFViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="QFViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cnq-BE-UpH">
-                                <rect key="frame" x="164" y="336" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4Y-fB-Kcq">
+                                <rect key="frame" x="67.5" y="318.5" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3Gd-mZ-ACH"/>
+                                    <constraint firstAttribute="width" constant="240" id="6hs-Jv-CRY"/>
+                                </constraints>
+                                <state key="normal" title="弹出只有年月的时间选择器"/>
                                 <connections>
-                                    <action selector="btn:" destination="whP-gf-Uak" eventType="touchUpInside" id="C0n-86-aec"/>
+                                    <action selector="showDatePickerView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5n-2a-Xwm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4K-uz-NKA">
+                                <rect key="frame" x="67.5" y="388.5" width="240.5" height="30"/>
+                                <state key="normal" title="弹出只有时分的时间选择器"/>
+                                <connections>
+                                    <action selector="showTimePickerVierw:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAR-1p-nbC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Blp-Wj-kJi">
+                                <rect key="frame" x="80" y="251" width="215" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AD2-nV-OLc"/>
+                                    <constraint firstAttribute="width" constant="215" id="C0k-Kl-T0b"/>
+                                </constraints>
+                                <state key="normal" title="弹出只有年和至今的时间选择器"/>
+                                <connections>
+                                    <action selector="showYearSelectView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lz8-ZQ-KJv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2WL-06-piU">
+                                <rect key="frame" x="67.5" y="448.5" width="240" height="30"/>
+                                <state key="normal" title="仿滴滴时间选择器"/>
+                                <connections>
+                                    <action selector="chooseDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4T4-vF-rPM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="k4Y-fB-Kcq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2hU-9H-NZk"/>
+                            <constraint firstItem="2WL-06-piU" firstAttribute="height" secondItem="k4Y-fB-Kcq" secondAttribute="height" id="5IS-Tv-nhg"/>
+                            <constraint firstItem="k4Y-fB-Kcq" firstAttribute="top" secondItem="Blp-Wj-kJi" secondAttribute="bottom" constant="37.5" id="Bix-m6-lYT"/>
+                            <constraint firstItem="2WL-06-piU" firstAttribute="trailing" secondItem="k4Y-fB-Kcq" secondAttribute="trailing" id="Qyf-Ne-baB"/>
+                            <constraint firstItem="Blp-Wj-kJi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RQn-1l-PNd"/>
+                            <constraint firstItem="2WL-06-piU" firstAttribute="leading" secondItem="k4Y-fB-Kcq" secondAttribute="leading" id="TJY-Ep-NWF"/>
+                            <constraint firstItem="B4K-uz-NKA" firstAttribute="leading" secondItem="k4Y-fB-Kcq" secondAttribute="leading" id="UhR-2f-5cg"/>
+                            <constraint firstItem="B4K-uz-NKA" firstAttribute="height" secondItem="k4Y-fB-Kcq" secondAttribute="height" id="Wbo-my-FcM"/>
+                            <constraint firstItem="2WL-06-piU" firstAttribute="top" secondItem="B4K-uz-NKA" secondAttribute="bottom" constant="30" id="Zbh-Km-nyt"/>
+                            <constraint firstItem="k4Y-fB-Kcq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dyN-fP-5Gp"/>
+                            <constraint firstItem="B4K-uz-NKA" firstAttribute="top" secondItem="k4Y-fB-Kcq" secondAttribute="bottom" constant="40" id="pke-fW-Bw2"/>
+                            <constraint firstItem="B4K-uz-NKA" firstAttribute="trailing" secondItem="k4Y-fB-Kcq" secondAttribute="trailing" id="vJ7-sf-19n"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="116" y="118.29085457271366"/>
         </scene>
     </scenes>
 </document>
